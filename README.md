@@ -1,15 +1,4 @@
+# Računalniški praktikum
+Win+E (odpri aplikacijo raziskovalec), Ctrl+N (nov zavihek), Ctrl+Shift+N (ustvari novo mapo)
 
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# On branch main
-# Your branch is ahead of 'origin/main' by 1 commit.
-#   (use "git push" to publish your local commits)
-#
-# Changes to be committed:
-#	modified:   README.md
-#
-# Untracked files:
-#	README.md.save
-#
 "2. domača naloga"
