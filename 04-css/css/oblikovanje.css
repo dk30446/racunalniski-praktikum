@@ -24,30 +24,35 @@ body {
         text-align: left;
         float: right;
         margin-left: 2em;
+        padding-top: 0,8em;
+        
     }
 
     .slika img {
         width: 100%;
         height: auto;
+        border-radius: 50%;
     }
 
-    /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
+    .slika last-child {
+        padding-top: 0,8em;
+    }
+    
+    /* /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
     /* {font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;} */
     /*  Velikost pisave lahko določimo na več načinov.
         Spodnji jo določi glede na velikost pisave v znački, ki je na enem nivoju višje;
         če velikost pisave na zgornjem nivoju ni določena, se določi glede na privzeto velikost pisave v brskalniku. */
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     /*  Višina vrstice  */
-    line-height: 1.5;
+    /* line-height: 1.5; */
     /*  Največja širina vsebine spletne strani  */
-    max-width: 40em;
+    /* max-width: 40em; */
     /*  Širina zunanjega roba; auto pomeni, da rob izračuna brskalnik tako, da element zavzame širino določeno v slogu,
         preostanek pa se enakomerno razdeli med levim in desnim robom  */
-    margin: auto;
+    /* margin: auto; */
     /*  Obojestranska poravnava besedila    */
-    text-align: justify;
-}
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
@@ -60,4 +65,4 @@ a:active { color:#990000; outline:none; }
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
-}
+}}
