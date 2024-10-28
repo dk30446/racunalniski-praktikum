@@ -1,9 +1,39 @@
 body {
     /*  Barva pisave pod značko oz. oznako  */
     color: #333333; 
+    h1 {
+        color: #2b2424;
+      }
+    
+    h2 {
+        border: 1px solid #AAAAAA;
+        margin-top: 2em;
+        border-top: 1px solid #AAAAAA;
+        padding-top: 0,5em;
+    }
+
+    #uvod {
+        padding: 2em;
+        background-color: rgb(51, 0, 102, 0.1);
+    }
+
+    .slika {
+        font-size: 0,9px;
+        width: 40%;
+        height: auto;
+        text-align: left;
+        float: right;
+        margin-left: 2em;
+    }
+
+    .slika img {
+        width: 100%;
+        height: auto;
+    }
+
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
-    font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
+    /* {font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;} */
     /*  Velikost pisave lahko določimo na več načinov.
         Spodnji jo določi glede na velikost pisave v znački, ki je na enem nivoju višje;
         če velikost pisave na zgornjem nivoju ni določena, se določi glede na privzeto velikost pisave v brskalniku. */
