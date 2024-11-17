@@ -1,4 +1,8 @@
-\documentclass{article}
+\documentclass[a4paper, 10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
 
 % NALOGA 1
 % Vključite pakete za podporo slovenščini,
@@ -6,25 +10,24 @@
 % Prekopirajte ustrezne tri vrstice iz pregledne datoteke `1-osnove.tex`.
 
 \begin{document}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
 
 % Pri tej nalogi (in tudi vseh naslednjih) si pomagajte s paleto ukazov!
 % Naslov, avtor, datum in povzetek naj bodo izdelani z uporabo ukazov in
 % okolja, ki so v ta namen definirani v razredu `article`. Da se bo glava
 % dokumenta s temi podatki prikazala, morate uporabiti ukaz `\maketitle`.
 
-Izdelava urnikov
-Nejc Širovnik
-14. 10. 2019
+\title{Izdelava urnikov}
+\author{Nejc Širovnik}
+\date{14. 10. 2019}
+\maketitle
 
-% začetek povzetka
+\begin{abstract}
 V članku so predstavljeni nekateri postopki za avtomatsko izdelavo urnikov. Opisani so
 potrebni vhodni podatki, naštete so omejitve, ki jih je potrebno upoštevati pri izdelavi
 urnikov, predstavljena je tudi metoda merjenja kakovosti izdelanega urnika.
-% konec povzetka
+\end{abstract}
 
-Program za izdelavo urnika % razdelek
+\subsection{Program za izdelavo urnika}
 
 Spominjam se osnovnošolskih in srednješolskih dni, ko smo vsi z nestrpnostjo pričakovali
 začetek novega šolskega leta, ki pa je nemalokrat prinesel zelo hladen tuš ob pogledu na
@@ -56,7 +59,7 @@ Znano je, da so za izdelavo najzahtevnejši fakultetni urniki, zato od sedaj nap
 obravnavamo le slednje. Seznam omejitev, ki jih moramo upoštevati pri teh urnikih,
 je namreč obsežnejši kot pri urnikih osnovnih in srednjih šol.
 
-Vhodni podatki % podrazdelek
+\subsubsection{Vhodni podatki}
 
 Če želimo izdelati urnik, v prvi vrsti potrebujemo podatke, ki jih moramo upoštevati in
 kasneje tudi obdelati. Te podatke preberemo iz podatkovnih baz ali drugih vrst datotek,
@@ -87,7 +90,7 @@ matematika.
 Hierarhija značk omogoča enostavno vnašanje podatkov, hkrati pa poskrbi za preglednost.
 Še enostavnejše je dostopanje do posameznih podatkov, saj večina programskih jezikov že
 vsebuje metode za delo z XML datotekami.
-
+%
 Pri objektno orientiranih programskih jezikih (Delphi, C++, Java) vse vhodne podatke
 opišemo s posameznimi razredi. Poglejmo, katere razrede je smiselno implementirati ter
 katere podatke naj vsebujejo.
